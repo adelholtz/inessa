@@ -1,0 +1,14 @@
+{
+    "name": "internetx/inessa",
+    "description": "xml annotation parser",
+    "type": "project",
+    "require": {
+        "php": ">=5.6.0",
+        "symfony/yaml": "v3.2.8"
+    },
+    "autoload": {
+        "psr-4": {
+			"Inessa\\": "/"
+        }
+    }
+}
